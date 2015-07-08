@@ -2,6 +2,11 @@ Concordance
 ===========
 Written in `python 3.4.0`
 
+## To Run
+```bash
+./concordance.py --text test2.txt -o test2.out
+```
+
 ## Design Considerations
 Although Python has perfectly good support for classes, I only used one for the Tokenizer.
 I believe that unless you need to maintain a state, you're usually better off writing
@@ -26,10 +31,6 @@ who knew?). The general approach:
   4. Another process updates a binary tree as results from Reduce come in,
      providing you sorted output as soon as possible.
 
-## To Run
-```bash
-./concordance.py --text test2.txt -o test2.out
-```
 
 ## Setup
 This script leverages [nltk](http://www.nltk.org/) for parsing English sentences. It does so with middling results
