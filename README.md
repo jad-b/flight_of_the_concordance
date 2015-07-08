@@ -7,6 +7,13 @@ Written in `python 3.4.0`
 ./concordance.py --text test2.txt -o test2.out
 ```
 
+## Time Spent
+* 30m for design
+* 1.5h for logic (coding)
+* 45m for argument parsing, comments
+* 45m for rudimentary tests
+* Total => 3.5h
+
 ## Design Considerations
 Although Python has perfectly good support for classes, I only used one for the Tokenizer.
 I believe that unless you need to maintain a state, you're usually better off writing
